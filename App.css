@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    background-color: #000;
+}
+
+main {
+    width: 81%;
+    height: 60vh;
+    /* border:2px solid red; */
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 100px;
+}
+
+main>span {
+    display: flex;
+    width: 70px;
+    height: 60px;
+    /* border:2px solid white; */
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main>span:nth-of-type(14),
+main>span:nth-of-type(15) {
+    width: 100px;
+    background-color: purple;
+}
+
+main>span:nth-of-type(29),
+main>span:nth-of-type(41) {
+    width: 128px;
+    background-color: red;
+}
+
+main>span:nth-of-type(42),
+main>span:nth-of-type(53) {
+    width: 170px;
+    background-color: gold;
+}
+
+/* start color key  */
+main>span:nth-of-type(1),
+main>span:nth-of-type(2),
+main>span:nth-of-type(11),
+main>span:nth-of-type(12),
+main>span:nth-of-type(13),
+main>span:nth-of-type(14),
+main>span:nth-of-type(15),
+main>span:nth-of-type(16),
+main>span:nth-of-type(24),
+main>span:nth-of-type(25),
+main>span:nth-of-type(26),
+main>span:nth-of-type(27),
+main>span:nth-of-type(28),
+main>span:nth-of-type(29),
+main>span:nth-of-type(30),
+main>span:nth-of-type(39),
+main>span:nth-of-type(40),
+main>span:nth-of-type(41),
+main>span:nth-of-type(42),
+main>span:nth-of-type(43),
+main>span:nth-of-type(52),
+main>span:nth-of-type(53) {
+    background-color: rgb(228, 73, 46);
+}
+
+main>span:nth-of-type(3),
+main>span:nth-of-type(10),
+main>span:nth-of-type(17),
+main>span:nth-of-type(24),
+main>span:nth-of-type(31),
+main>span:nth-of-type(38),
+main>span:nth-of-type(44),
+main>span:nth-of-type(51) {
+    background-color: rgb(235, 225, 93);
+}
+
+main>span:nth-of-type(4),
+main>span:nth-of-type(9),
+main>span:nth-of-type(18),
+main>span:nth-of-type(23),
+main>span:nth-of-type(32),
+main>span:nth-of-type(37),
+main>span:nth-of-type(45),
+main>span:nth-of-type(50) {
+    background-color: orange;
+}
+
+main>span:nth-of-type(5),
+main>span:nth-of-type(8),
+main>span:nth-of-type(19),
+main>span:nth-of-type(22),
+main>span:nth-of-type(33),
+main>span:nth-of-type(36),
+main>span:nth-of-type(46),
+main>span:nth-of-type(49) {
+    background-color: gold;
+}
+
+main>span:nth-of-type(6),
+main>span:nth-of-type(7),
+main>span:nth-of-type(20),
+main>span:nth-of-type(21),
+main>span:nth-of-type(34),
+main>span:nth-of-type(35),
+main>span:nth-of-type(47),
+main>span:nth-of-type(48) {
+    background-color: rgb(255, 255, 194);
+}
